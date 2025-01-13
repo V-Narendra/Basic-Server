@@ -33,3 +33,5 @@ mongoose.connect(process.env.MONGO_URI, {
     console.log("Error connecting to MongoDB", err);
 });
 
+export default app;
+
